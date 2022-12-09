@@ -1,8 +1,0 @@
-kind: Namespace
-apiVersion: v1
-metadata: # kpt-merge: /strimzi-system
-  name: strimzi-kafka-operator
-  labels:
-    name: strimzi-system
-  annotations:
-    internal.kpt.dev/upstream-identifier: '|Namespace|default|strimzi-system'
