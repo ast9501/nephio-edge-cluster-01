@@ -9,7 +9,7 @@ metadata: # kpt-merge: strimzi-system/strimzi-cluster-operator
     component: deployment
     release: strimzi-kafka-operator
     heritage: Helm
-  namespace: strimzi-system
+  namespace: strimzi-kafka-operator
   annotations:
     internal.kpt.dev/upstream-identifier: 'apps|Deployment|strimzi-system|strimzi-cluster-operator'
 spec:

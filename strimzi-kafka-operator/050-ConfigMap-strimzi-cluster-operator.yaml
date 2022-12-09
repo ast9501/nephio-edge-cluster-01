@@ -5,7 +5,7 @@ metadata: # kpt-merge: strimzi-system/strimzi-cluster-operator
   name: strimzi-cluster-operator
   labels:
     app: strimzi
-  namespace: strimzi-system
+  namespace: strimzi-kafka-operator
   annotations:
     internal.kpt.dev/upstream-identifier: '|ConfigMap|strimzi-system|strimzi-cluster-operator'
 data:

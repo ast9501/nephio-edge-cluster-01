@@ -16,7 +16,7 @@ metadata: # kpt-merge: /strimzi-cluster-operator-kafka-broker-delegation
 subjects:
 - kind: ServiceAccount
   name: strimzi-cluster-operator
-  namespace: strimzi-system
+  namespace: strimzi-kafka-operator
 roleRef:
   kind: ClusterRole
   name: strimzi-kafka-broker

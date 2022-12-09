@@ -1,7 +1,7 @@
 kind: Namespace
 apiVersion: v1
 metadata: # kpt-merge: /strimzi-system
-  name: strimzi-system
+  name: strimzi-kafka-operator
   labels:
     name: strimzi-system
   annotations:
