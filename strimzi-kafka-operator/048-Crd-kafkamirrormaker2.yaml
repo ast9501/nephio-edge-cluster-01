@@ -21,6 +21,10 @@ spec:
   scope: Namespaced
   conversion:
     strategy: None
+    webhook:
+      clientConfig:
+        service:
+          namespace: strimzi-system
   versions:
   - name: v1beta2
     served: true
